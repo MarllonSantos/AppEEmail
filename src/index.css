@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oxanium:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", serif;
+}
+
+body{
+    background-color: #393E46;
+}
+
+#toolbar{
+    width: 100%;
+    height: 60px;
+    background-color: #212121;
+    
+}
+
+#toolbar .brand{
+    padding: 15px;
+    color: white;
+    
+}
+
+#toolbar .brand h2{
+    font-weight: 700;
+    font-family: "Oxanium", serif;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.formEmail{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+    padding: 7px;
+    background-color: #2b2e33;
+    border-radius: 5px;
+}
+
+.formEmail input{
+    padding: 5px 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.formEmail button{
+    padding: 5px 20px;
+    font-size: 18px;
+    width: fit-content;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: greenyellow;
+}
+
+.formEmail .limpar{
+    background-color: red;
+}
+
+.returnOk{
+    background-color: rgb(155, 255, 135);
+    color: rgb(19, 82, 0);
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.returnErro{
+    background-color: rgb(255, 86, 86);
+    color: rgb(134, 0, 0);
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 700;
+}
